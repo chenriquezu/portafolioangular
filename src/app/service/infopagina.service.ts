@@ -17,7 +17,6 @@ cargada: false;
      this.http.get('assets/data/data-pagina.json')
               .subscribe ( (resp: infopagina) => {
                 this.info = resp;
-                this.cargada = true;
                 console.log(resp);
      });
 
